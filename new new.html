@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: white; /* White background */
+      color: #000; /* Black text color */
+      text-align: center;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    .title {
+      font-size: 3rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    .subtitle {
+      font-size: 1.5rem;
+      margin: 10px 0;
+    }
+    .button {
+      margin-top: 20px;
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      background-color: #000;
+      color: #fff;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: transform 0.3s, background-color 0.3s;
+    }
+    .button:hover {
+      transform: scale(1.1);
+      background-color: #ff4500;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Welcome to mickeys World!</h1>
+    <p class="subtitle">Click below to visit my Snapchat profile</p>
+    <button class="button" onclick="window.open('https://www.snapchat.com/add/mickey_0098', '_blank')">Click Here</button>
+    
+  </div>
+</body>
+</html>
